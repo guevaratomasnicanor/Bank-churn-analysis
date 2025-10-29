@@ -1,9 +1,11 @@
 # Bank-churn-analysis
-# The goal is to predict if a client will leave the bank
+ The goal is to predict if a client will leave the bank
 # Dataset
 # Source
-# variables: Age, Gender, Geography, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary, Exited
-# NAs & Outliers: 0 NAs and a few outliers
+# variables: 
+Age, Gender, Geography, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary, Exited
+# NAs & Outliers: 
+0 NAs and a few outliers
 
  # key insights
  - Clients who are active members, own 2 or more products have lower churn rates
