@@ -9,4 +9,4 @@
  - Clients who are active members, own 2 or more products have lower churn rates
  - Clients aged 40 or younger have higher probability of churn, while clients older than 40 tend to stay longer with the bank.
  - Customers from Germany are prone to churn.
- - XGBOOST model detects 49% of churns
+ - XGBOOST model detects 73% of churns
