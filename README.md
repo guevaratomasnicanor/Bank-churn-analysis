@@ -81,6 +81,3 @@ Otros modelos probados: Logistic Regression, Random Forest, LightGBM.
 - Feature importance del modelo XGBoost  
 - Curva ROC y matriz de confusión  
 
-*(Podés incluir imágenes así:)*  
-```markdown
-![Churn by Geography](images/churn_by_geography.png)
