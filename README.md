@@ -62,8 +62,8 @@ Otros modelos probados: Logistic Regression, Random Forest, LightGBM.
 
 ## 🧰 Tecnologías utilizadas
 
-- **Lenguaje:** Python  
-- **Bibliotecas:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`  
+- **Lenguaje:** R
+- **Bibliotecas:** 
 - **Técnicas:**  
   - Feature encoding y escalado  
   - EDA y visualización de churn  
@@ -73,11 +73,5 @@ Otros modelos probados: Logistic Regression, Random Forest, LightGBM.
 
 ---
 
-## 📈 Visualizaciones destacadas
 
-- Churn por país (`Geography`)  
-- Churn por grupo de edad  
-- Distribución de churn según número de productos  
-- Feature importance del modelo XGBoost  
-- Curva ROC y matriz de confusión  
 
