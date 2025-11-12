@@ -35,16 +35,18 @@ El dataset contiene información de más de **10 000 clientes** de un banco euro
 ## 🔍 Insights Principales
 
 ### 👥 Perfil del cliente
-- Los **clientes activos** y quienes poseen **2 o más productos** muestran **menor tasa de churn**.  
-- Los **clientes jóvenes (≤ 40 años)** presentan mayor probabilidad de abandonar el banco.  
-- Clientes **mayores de 40 años** tienden a mantenerse más tiempo.  
+- La variable más influyente es la **actividad del cliente** (`IsActiveMember`).
+- Los **clientes activos**  y **Hombres** muestran **menor tasa de churn**.  
 - Los **clientes de Alemania** son los más propensos a dejar el banco.
+<img width="1363" height="691" alt="Captura de pantalla 2025-11-12 113009" src="https://github.com/user-attachments/assets/dadfb628-d902-4e12-a86d-0cc4d810b323" />
 
 ### 💰 Variables numéricas
-- No hay correlación directa entre **saldo o salario estimado** y la salida del cliente.  
-- La variable más influyente es la **actividad del cliente** (`IsActiveMember`).
-
+- Los clientes que abandonan el banco suelen ser mayores de 40 años, mientras que los que siguen son menores de 40 años y mayores de 70.
+- No existen grandes diferencias de medias de **Creditscore**, de **EstimatedSalary** y **Tenure** entre aquellos clientes que permanecen en el banco y los que no.
+- Clientes con mayor dinero en cuenta tienden a irse.
+  
 ---
+<img width="1355" height="691" alt="Captura de pantalla 2025-11-12 123430" src="https://github.com/user-attachments/assets/45617ed0-3062-4756-b186-d59e01868e26" />
 
 ## 🤖 Modelado Predictivo
 
