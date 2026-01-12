@@ -56,7 +56,6 @@ Se entrenaron modelos de clasificación para predecir la variable `Exited`.
 
 | Modelo | Accuracy | Precision | Recall | F1 Score |
 |---------|-----------|-----------|---------|-----------|
-         
 | Random Forest | 0.8457181 | 0.6106984 |0.6715686 |0.6396887 |
 | XGBoost | 0.8617128 | 0.6781193 |0.6127451 |0.6437768 |
 | LightGBM |  0.8473842 | 0.6152695 |0.6715686 |0.6421875 |
