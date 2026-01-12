@@ -33,7 +33,7 @@ El dataset contiene información de más de **10 000 clientes** de un banco euro
 ---
 
 ## 🔍 Insights Principales
-
+- El 20% de los clientes se estan yendo del banco.
 ### 👥 Perfil del cliente
 - La variable más influyente es la **actividad del cliente** (`IsActiveMember`).
 - Los **clientes activos**  y **Hombres** muestran **menor tasa de churn**.  
@@ -56,7 +56,11 @@ Se entrenaron modelos de clasificación para predecir la variable `Exited`.
 
 | Modelo | Accuracy | Precision | Recall | F1 Score |
 |---------|-----------|-----------|---------|-----------|
-| XGBoost | 0.86 | 0.75 | **0.73** | 0.74 |
+         
+| Random Forest | 0.8457181 | 0.6106984 |0.6715686 |0.6396887 |
+| XGBoost | 0.8617128 | 0.6781193 |0.6127451 |0.6437768 |
+| LightGBM |  0.8473842 | 0.6152695 |0.6715686 |0.6421875 |
+| MLP | 0.8607131 | 0.6695804 |0.6258170 |0.6469595 |
 
 Otros modelos probados: Logistic Regression, Random Forest, LightGBM.
 
