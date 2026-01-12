@@ -52,7 +52,7 @@ El dataset contiene información de más de **10 000 clientes** de un banco euro
 
 Se entrenaron modelos de clasificación para predecir la variable `Exited`.
 
-**Mejor modelo:** `XGBoost`
+**Mejor modelo:** LGBM: Se detecta al 67% de los clientes que abandonan, con una eficacia del 85%
 
 | Modelo | Accuracy | Precision | Recall | F1 Score |
 |---------|-----------|-----------|---------|-----------|
@@ -61,7 +61,7 @@ Se entrenaron modelos de clasificación para predecir la variable `Exited`.
 | LightGBM |  0.8473842 | 0.6152695 |0.6715686 |0.6421875 |
 | MLP | 0.8607131 | 0.6695804 |0.6258170 |0.6469595 |
 
-Otros modelos probados: Logistic Regression, Random Forest, LightGBM.
+
 
 ---
 
